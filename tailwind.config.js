@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/src/assets/images/Hero_section.png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'footer-texture': "url('/src/assets/images/footer.png')",
       },
 
       fontFamily: {

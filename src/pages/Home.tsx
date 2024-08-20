@@ -1,20 +1,20 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-// import Ecosystem from '../components/Ecosystem';
-// import Products from '../components/Products';
-// import Benefits from '../components/Benefits';
-// import Footer from '../components/Footer';
+import Ecosystem from '../components/Ecosystem';
+import Products from '../components/Products';
+import Benefits from '../components/Benefits';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
     <>
       <Header />
       <Hero />
-      {/* <Ecosystem />
+      <Ecosystem />
       <Products />
       <Benefits />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
